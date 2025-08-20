@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://yoelbobcatservices.vercel.app/
+
+# Sitemaps
+Sitemap: https://yoelbobcatservices.vercel.app/sitemap.xml

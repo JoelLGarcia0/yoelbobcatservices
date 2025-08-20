@@ -58,7 +58,7 @@ export default function Footer() {
         </ul>
 
         {/* Social + top button */}
-        <div className="mt-6 flex flex-col items-center gap-4 md:flex-row md:justify-between">
+        <div className="mt-6 mb-2 flex flex-col items-center gap-4 md:flex-row md:justify-between">
           {/* Socials */}
           <div className="flex items-center gap-4">
             <a

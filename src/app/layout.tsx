@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "Yoel Bobcat Services | Construction & Excavation Experts",
     description:
       "Residential & commercial construction done right — on time, every time.",
-    images: ["/og-image.jpg"],
+    images: ["/images/og-image.png"],
   },
 };
 
