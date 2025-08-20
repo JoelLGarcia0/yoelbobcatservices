@@ -11,20 +11,23 @@ export default function Footer() {
   return (
     <footer className="bg-footerbg  text-gray-300">
       {/* Top */}
-      <div className="mx-auto max-w-5xl px-6 py-4">
+      <div className="mx-auto max-w-5xl px-6 py-2">
         {/* Logo */}
         <div className="flex justify-center">
           <Link href="/" aria-label="Yoel Bobcat Services">
-            <img
-              src="/logos/logored.svg"
+            <Image
+              src={logos.logo}
               alt="Yoel Bobcat Services"
-              className="h-22 w-auto"
+              width={90}
+              height={90}
+              className="object-contain"
+              priority
             />
           </Link>
         </div>
 
         {/* Contact row */}
-        <ul className="mt-6 flex flex-col items-center gap-3 text-sm md:flex-row md:flex-wrap md:justify-center md:gap-x-8 md:gap-y-2">
+        <ul className="mt-2 flex flex-col items-center gap-3 text-sm md:flex-row md:flex-wrap md:justify-center md:gap-x-8 md:gap-y-2">
           <li className="flex items-center gap-2">
             <FiMapPin className="h-4 w-4 text-mainred" />
             <address className="not-italic">

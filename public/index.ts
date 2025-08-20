@@ -6,7 +6,7 @@ export const images = {
 };
 
 export const logos = {
-  logo: "/logos/logored.svg",
+  logo: "/logos/redlogo.png",
 };
 export const icons = {
   favicon: "/icons/favicon.ico",
