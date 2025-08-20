@@ -51,7 +51,7 @@ export default function About() {
         <div className="max-w-3xl">
           <h2 className="font-title text-3xl md:text-5xl font-bold leading-tight">
             We&apos;ve Been Providing Services
-            <br className="hidden sm:block" />
+            <br className="sm:block" />
             For Over 23 Years
           </h2>
 

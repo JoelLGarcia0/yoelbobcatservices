@@ -15,13 +15,10 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex justify-center">
           <Link href="/" aria-label="Yoel Bobcat Services">
-            <Image
-              src={logos.logo}
+            <img
+              src="/logos/logored.svg"
               alt="Yoel Bobcat Services"
-              width={80}
-              height={80}
-              className="object-contain"
-              priority
+              className="h-22 w-auto"
             />
           </Link>
         </div>

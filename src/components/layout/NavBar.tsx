@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { logos } from "../../../public";
 
 const links = [
   { href: "/", label: "Home" },
@@ -40,14 +38,11 @@ export default function NavBar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <Image
-            src={logos.logo}
+        <Link href="/" aria-label="Home" className="flex items-center gap-3">
+          <img
+            src="/logos/logored.svg"
             alt="Yoel Bobcat Services"
-            width={80}
-            height={80}
-            priority
-            className="object-contain"
+            className="h-22 w-auto"
           />
         </Link>
 
@@ -143,7 +138,7 @@ export default function NavBar() {
 
             <div className="pt-4 text-sm">
               <Link
-                href="#estimate"
+                href="#contact"
                 onClick={() => setOpen(false)}
                 className="inline-flex w-full items-center justify-center bg-black border-mainred border-2 px-5 py-2 font-title text-sm font-semibold uppercase tracking-wide text-mainred hover:bg-mainred hover:text-white transition-colors"
               >

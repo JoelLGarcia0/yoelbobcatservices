@@ -35,7 +35,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto flex h-full w-full max-w-6xl items-center px-14">
         <div className="max-w-3xl">
-          <div className="relative inline-block">
+          <div className="relative mt-8 inline-block">
             <span
               aria-hidden
               className="pointer-events-none absolute -left-6 -top-6 block h-10 w-10 border-l-8 border-t-8 border-mainred"
@@ -54,7 +54,7 @@ export default function Hero() {
             deliver reliable results for residential and commercial projects.
           </p>
 
-          <div className="mt-8">
+          <div className="mt-12">
             <Link
               href="tel:3057378355"
               className="inline-flex items-centerborder-2 bg-black border-mainred border-2 px-5 py-2 font-title text-sm font-semibold uppercase tracking-wide text-mainred hover:bg-mainred hover:text-white transition-colors"

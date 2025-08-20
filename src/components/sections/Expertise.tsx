@@ -5,7 +5,7 @@ import { ArrowRight, ChevronRight } from "lucide-react";
 
 export default function Expertise() {
   return (
-    <section id="services" className="w-full">
+    <section className="w-full">
       <div className="mx-auto grid max-w-content grid-cols-1 md:grid-cols-3">
         {/* Left Column */}
         <div className="bg-mainred text-white p-8 md:py-12 md:px-10">
@@ -28,7 +28,7 @@ export default function Expertise() {
         {/* Right Column */}
         <div className="md:col-span-2 bg-gray-50 flex flex-col justify-between">
           {/* Main text content */}
-          <div className="p-8 md:py-12 md:px-12 flex-1">
+          <div id="services" className="p-8 md:py-12 md:px-12 flex-1">
             <div className="relative mb-6 md:mb-8">
               <span
                 aria-hidden
