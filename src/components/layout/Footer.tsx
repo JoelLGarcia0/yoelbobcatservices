@@ -52,7 +52,7 @@ export default function Footer() {
               href="mailto:yoelbobcatservices@gmail.com"
               className="hover:text-mainred"
             >
-              yoelbobcatservices@gmail.com
+              yoelbobcatservice@gmail.com
             </a>
           </li>
         </ul>
