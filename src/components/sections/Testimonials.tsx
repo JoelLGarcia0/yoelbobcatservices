@@ -66,11 +66,11 @@ export default function Testimonials() {
           <div className="relative inline-block">
             <span
               aria-hidden
-              className="absolute -left-10 -top-4 block h-8 w-8 border-t-8 border-l-8 border-mainred"
+              className="absolute -left-7 -top-6 block h-8 w-8 border-t-8 border-l-8 border-mainred"
             />
             <span
               aria-hidden
-              className="absolute -right-10 -bottom-4 block h-8 w-8 border-b-8 border-r-8 border-mainred"
+              className="absolute -right-7 -bottom-6 block h-8 w-8 border-b-8 border-r-8 border-mainred"
             />
             <h2 className="font-title uppercase text-2xl md:text-3xl font-bold text-darktext">
               Reviews by Our Clients

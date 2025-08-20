@@ -40,7 +40,7 @@ export default function Footer() {
           <li className="flex items-center gap-2">
             <FiPhone className="h-4 w-4 text-mainred" />
             <a href="tel:+13057378355" className="hover:text-mainred">
-              +1 (305) 737-8355
+              +1 (786)-247-5383
             </a>
           </li>
 

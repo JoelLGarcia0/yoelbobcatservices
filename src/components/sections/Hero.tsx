@@ -56,7 +56,7 @@ export default function Hero() {
 
           <div className="mt-12">
             <Link
-              href="tel:3057378355"
+              href="tel:7862475383"
               className="inline-flex items-centerborder-2 bg-black border-mainred border-2 px-5 py-2 font-title text-sm font-semibold uppercase tracking-wide text-mainred hover:bg-mainred hover:text-white transition-colors"
             >
               CALL NOW

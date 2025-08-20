@@ -28,7 +28,7 @@ export default function Expertise() {
         {/* Right Column */}
         <div className="md:col-span-2 bg-gray-50 flex flex-col justify-between">
           {/* Main text content */}
-          <div id="services" className="p-8 md:py-12 md:px-12 flex-1">
+          <div id="services" className="p-10 md:py-12 md:px-12 flex-1">
             <div className="relative mb-6 md:mb-8">
               <span
                 aria-hidden
