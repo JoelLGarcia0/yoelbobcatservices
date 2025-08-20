@@ -9,10 +9,15 @@ import { sendContactForm } from "@/lib/api";
 
 export default function Contact() {
   const [submitting, setSubmitting] = useState(false);
+  const [status, setStatus] = useState<null | {
+    type: "success" | "error";
+    msg: string;
+  }>(null);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
+    setStatus(null); //clear
     try {
       const form = e.currentTarget;
       const formData = new FormData(form);
@@ -26,11 +31,17 @@ export default function Contact() {
       };
       await sendContactForm(payload);
 
-      alert("Thanks! We'll get back to you shortly.");
+      setStatus({
+        type: "success",
+        msg: "Thanks! We'll get back to you shortly.",
+      });
       form.reset();
     } catch (err) {
       console.error(err);
-      alert("Sorry—something went wrong. Please try again.");
+      setStatus({
+        type: "error",
+        msg: "Sorry, something went wrong. Please try again.",
+      });
     } finally {
       setSubmitting(false);
     }
@@ -219,6 +230,17 @@ export default function Contact() {
                 >
                   {submitting ? "Submitting..." : "Submit"}
                 </button>
+                {status && (
+                  <div
+                    className={`mt-4 p-3 text-sm rounded ${
+                      status.type === "success"
+                        ? "bg-black text-mainred border border-mainred"
+                        : "bg-red-600/20 text-red-200 border border-red-500"
+                    }`}
+                  >
+                    {status.msg}
+                  </div>
+                )}
               </div>
             </form>
           </div>

@@ -23,7 +23,7 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Lock page scroll when drawer is open (prevents weird see-through effects on mobile)
+  // Lock page scroll when drawer is open
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
