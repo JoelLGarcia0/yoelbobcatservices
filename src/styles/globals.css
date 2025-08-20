@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* fonts */
+  --font-body: "Roboto", sans-serif;
+  --font-title: "Montserrat", sans-serif;
+
+  /* colors */
+  --color-mainred: #cc2610;
+  --color-graytext: #666666;
+  --color-darktext: #131313;
+  --color-darkgray: #181818;
+  --color-footerbg: #0f0f0f;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 104px;
+}
