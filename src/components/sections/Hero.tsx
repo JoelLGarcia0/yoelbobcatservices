@@ -45,7 +45,7 @@ export default function Hero() {
               className="pointer-events-none absolute -right-6 -bottom-6 block h-10 w-10 border-b-8 border-r-8 border-mainred"
             />
             <h1 className="font-title uppercase tracking-tight text-white font-extrabold leading-tight text-4xl sm:text-5xl md:text-6xl">
-              Groundwork. <br /> Percision. <br /> Results.
+              Groundwork. <br /> Precision. <br /> Results.
             </h1>
           </div>
 
